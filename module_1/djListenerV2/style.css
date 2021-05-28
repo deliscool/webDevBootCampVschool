@@ -1,0 +1,13 @@
+.square  {
+    width: 100px;
+    height: 100px;
+    background-color:black;
+
+}
+
+.square:hover {
+    box-shadow: 5px 10px goldenrod;
+    width: 150px;
+    height: 100px;
+    background-color: grey;
+}
