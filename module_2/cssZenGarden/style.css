@@ -1,0 +1,12 @@
+/* Specifics Divs */
+#grid-container {
+    /* give the container display grid */
+    display: grid;
+    /* with six rows, 50px high */
+    /*grid-template-rows: 50px 50px 50px 50px 50px 50px 50px;*/
+    grid-template-rows: repeat(10, auto);
+    /* default all cells/children on the left be 2/3 the screen width, and all on the left 1/3 */
+    /* grid-template-columns: 2fr 1fr;*/
+    grid-template-columns: repeat(2, auto);
+}
+
