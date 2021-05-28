@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Julius+Sans+One|Libre+Baskerville:400,400italic);
+
 @import url(https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap); 
 @import url(https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap);
 
@@ -26,7 +26,7 @@ form {
   text-align: center;
   
 }
-.computer {
+.client {
   background-image: url(/axios-todo/assets/5.svg);
   background-repeat: no-repeat;
   grid-row: 1/2;
