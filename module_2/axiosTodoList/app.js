@@ -98,5 +98,7 @@ function completeTodo(checkbox, data) {
         }
     })
 }
-
 getData()
+
+
+// Add edit button function and connect to the form 
