@@ -1,6 +1,6 @@
 import './App.css';
 import React from 'react';
-import square from "./components/square";
+import Square from "./components/Square";
 
 class App extends React.Component {
   state = {
@@ -111,8 +111,9 @@ bigDj4 = () => {
     })
 }
 render() {
-  const squareComp = this.state.colors.map((color) => <square backgroundColor={color} />)
+  const squareComp = this.state.colors.map((color) => <Square backgroundColor={color} />)
   return (
+     
       <div className="container">
       {squareComp}
       <button onClick={this.smallDj}>Small Dj</button>
